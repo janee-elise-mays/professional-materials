@@ -26,12 +26,10 @@ body {
     overflow: hidden;
     border-radius: 10px
 }
-.header-img {
-    /* background-image: url('../images/seattle.jpg'); */
+.header-photo {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px
 }
 .header-top {
     background-color: #fff;
@@ -49,29 +47,26 @@ p1{
     position: absolute;
     color: white;
     font-size: 3rem;
-    top:250px;
+    top: 300px;
     text-shadow: 0px 0px 10px black;
 }
-/* .header{
-    padding: 20px;
-    font-family:inherit;
-    font-size: 25px;
-    color:black;
-    text-align:right;
-} */
-.janee:hover{
-    color:royalblue;
+.first{
+    background-color: white;
+    border-radius: 10px;
+    color: #ccbcaf;
+    margin-left: 6%;
 }
 /* links and headshot designate the characteristics of the navigation pane */
 .links{
     background-color:#615a54;
-    width: 100%;
+    max-width: 100%;
+    width: 900px;
     position: static;
-    text-align: right;
+    text-align: center;
     top: 0;
     font-family:inherit;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     font-size: 25px;
 }
 li a {color: white;text-decoration: none;}
@@ -85,121 +80,48 @@ li a {color: white;text-decoration: none;}
 .links a:hover{
     color: black;
 }
-/* #headshot{
-    z-index: 20;
-    border-radius: 50%;
-    border: 5px solid black;
+#headshot{
+    height:auto;
+    border: none;
     position: absolute;
-    top: 60px;
-    left: 0px;
-} */
+    margin: 0 auto 0px;
+    max-width: 100%;
+}
+.featured-pages{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    margin-bottom: 24px;
+    background: white;
+    height: 100%;
+    padding: 0%;
+}
 /* row and side class split the page format into 30/70 display */
-.row {
+.row-nav {
     display:flex;
     flex-wrap: wrap;
     width: 100%;
-}
-.side {
-    flex: 30%;
-    background-color: lightgray;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-.side img{
-    flex: 30%;
-}
-.side:hover{
-    background-color:darkgray;
-}
-/* flex percentage dictates occupation amount of content */
-.main {
-    flex: 70%;
-    background-color: white;
-    padding: 20px;
-    box-sizing: border-box;
-}
-.mountains img{
-    display:inline-block;
-    padding: 0;
-    height: 800px;
-    border: 5px solid #555;
-    box-sizing: content-box;
-}
-.mountains:hover {
-    opacity: 0.3;
-}
-/* "a" is parent image to bottom-left class children */
-a {
-    position: relative;
-    max-width: fit-content;
-    color: white;
+    padding-left: inherit;
+    padding-right: inherit;
 }
 img{
-    margin: 0%;
-    padding: 0%;
+    margin-left: 33px;
+    padding-top: 25px;
+    border-radius: 10px;
+    width:80%;
 }
-.bottom-left{
-    position: absolute;
-    background-color: #555;
-    bottom: 8px;
-    left: 8px;
-    width: fit-content;
-    height: fit-content;
-    font-size: 20px;
-}
-/* work img/work img hover sets responsive properties to mouse selection */
-.work img{
-    flex: 70%;
-    display: inline-block;
-    position: relative;
-    justify-content: space-evenly;
-    border: 5px solid #555;
-}
-.work img:hover{
-    opacity: 0.3;
-}
-.content h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: center;
+h2 {
+    font-size: 2rem;
     text-align: center;
-    font-family:inherit;
-    font-size: 40px;
+    color:#837971;
 }
-.content p{
-    margin-top: 20px;
-    margin-bottom: 20px;
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: inline-flex;
     text-align: center;
     font-family:inherit;
-    font-size: 20px;
-}
-.footer h3{
-    box-sizing: border-box;
-    text-align: left;
-    background-color: white;
-    color: black;
-    font-size: 40px;
-    flex: 100%;
-    padding: 20px;
-}
-/* creates vertical line to the right of header */
-.vl h3{
-    margin-top: 20px;
-    border-right: solid gray 3px;
-}
-.contact ul li {
-    display: inline-block;
-    justify-content: center;
-    margin-left: 100px;
-    text-align: center;
-}
-.contact ul li a {
-    font-family: inherit;
-    color: inherit;
-}
-.contact li:hover{
-    font-weight: bold;
-    border-bottom: solid black 3px;
+    font-size: 15px;
+    color:#837971;
 }
 

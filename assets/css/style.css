@@ -3,8 +3,28 @@
     padding: 0;
     margin: 0;
 }
-body {
-    background-image: url('../images/concrete.jpg');
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-image: url('../images/blue-brick.jpg');
+    height: 350px;
+    background-size: cover;
+    background-position-y: center;
+}
+.text-left{
+    text-align: left!important;
+}
+.title{
+    font-size: 2rem;
+    color:white;
+    text-shadow:0px 0px 10px black;
+    display: flex;
+    align-items: left;
+}
+/* body {
+    background-image: url('../images/texture.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px;
@@ -24,27 +44,22 @@ body {
     overflow: hidden;
     border-radius: 10px;
     background-color:white;
-}
-.header-image{
-    display: flex;
-    height:400px;
-    align-items: center;
-    justify-content: center;
-    width:126%;
-}
-.header-text {
+} */
+/* .header-text {
     display: flex;
     align-items: center;
     justify-content: center;
     height:auto;
     min-height: 180px;
-}
+} */
 h1{
     position: absolute;
     top: 200px;
     color: white;
     font-size: 3rem;
     text-shadow: 0px 0px 10px black;
+    text-transform: inherit;
+    width: 70%;
 }
 p1{
     position: absolute;

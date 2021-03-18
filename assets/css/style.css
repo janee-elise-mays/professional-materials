@@ -89,10 +89,11 @@ li a {color: white;text-decoration: none;}
     width:80%;
     border-radius: 10px;
 }
-h2 {
+#h2 {
     font-size: 2rem;
     text-align: center;
     color:#837971;
+    margin-bottom: 20px;
 }
 h3{
     padding-left: 80px;
@@ -123,6 +124,7 @@ p{
     height: 450px;
     background-size: cover;
     background-position-y: center;
+    border-radius: 10px;
 }
 .project-2 {
     display: flex;
@@ -133,6 +135,7 @@ p{
     height: 450px;
     background-size: cover;
     background-position-y: center;
+    border-radius: 10px;
 }
 .project-3 {
     display: flex;
@@ -143,4 +146,5 @@ p{
     height: 450px;
     background-size: cover;
     background-position-y: center;
+    border-radius: 10px;
 }

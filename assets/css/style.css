@@ -126,6 +126,9 @@ p{
     padding-left: 25px;
     padding-right: 25px;
 }
+a{
+    text-decoration: none;
+}
 .project-1 {
     /* display: flex; */
     margin-left: 100px;
@@ -165,4 +168,8 @@ p{
     padding:50px 50px 50px;
     margin-left: 200px;
     margin-bottom: 100px;
+}
+.contact p{
+    color:white;
+    border:none;
 }

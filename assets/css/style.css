@@ -2,9 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-html{
-    width: 100%;
+    font-family: 'Inter', sans-serif;
 }
 .row{
     width:100%;
@@ -127,6 +125,7 @@ a{
 }
 .project-1 {
     /* margin-left: 100px; */
+    display: flex;
     align-items: center;
     padding: 0;
     background-image: url('../images/ice-cream-2.jpg');

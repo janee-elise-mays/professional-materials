@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+html{
+    width: 100%;
+}
 .row{
     width:100%;
     margin-right: 0px;
@@ -33,8 +36,6 @@
     color: white;
     font-size: 4rem;
     text-shadow: 0px 0px 10px black;
-    /* text-transform: inherit; */
-    /* width: 70%; */
     padding-left: 30px;
 }
 p1{
@@ -48,7 +49,7 @@ p1{
     background-color: white;
     border-radius: 10px;
     color: #ccbcaf;
-    margin-left: 6%;
+    /* margin-left: 6%; */
 }
 .links{
     background-color:black;
@@ -65,7 +66,7 @@ li a {color: white;text-decoration: none;}
 
 .links ul li {
     display: inline-block;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     margin-right: 40px;
 }
 
@@ -84,14 +85,13 @@ li a {color: white;text-decoration: none;}
 .row-nav {
     display:flex;
     flex-wrap: wrap;
-    /* width: 100%; */
 }
-.image-1, {
+.image-1 {
     border-radius: 10px;
     border: 2px solid white;
 }
 .image-2, .image-3{
-    margin-left: 33px;
+    /* margin-left: 33px; */
     width:80%;
     border-radius: 10px;
 }
@@ -126,8 +126,7 @@ a{
     text-decoration: none;
 }
 .project-1 {
-    /* display: flex; */
-    margin-left: 100px;
+    /* margin-left: 100px; */
     align-items: center;
     padding: 0;
     background-image: url('../images/ice-cream-2.jpg');
@@ -137,8 +136,7 @@ a{
     border-radius: 10px;
 }
 .project-2 {
-    /* display: flex; */
-    margin-left: 100px;
+    /* margin-left: 100px; */
     align-items: center;
     padding: 0;
     background-image: url('../images/cactus.jpg');
@@ -148,8 +146,7 @@ a{
     border-radius: 10px;
 }
 .project-3 {
-    /* display: flex; */
-    margin-left: 100px;
+    /* margin-left: 100px; */
     align-items: center;
     padding: 0;
     background-image: url('../images/ice-cream.jpg');
@@ -162,10 +159,18 @@ a{
     background-color: black;
     border-radius: 10px;
     padding:50px 50px 50px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     margin-bottom: 100px;
 }
 .contact p{
     color:white;
     border:none;
+}
+.fa{
+    color:white;
+    padding-left: 12px;
+    display:flex;
+}
+.fa-envelope, .fa-phone {
+    font-size: 48px;
 }

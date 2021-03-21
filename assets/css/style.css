@@ -4,6 +4,10 @@
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
+body{
+    height: 100vh;
+    width: 100%;
+}
 .row{
     width:100%;
     margin-right: 0px;
@@ -84,12 +88,11 @@ li a {color: white;text-decoration: none;}
     display:flex;
     flex-wrap: wrap;
 }
-.image-1 {
+/* .image-1 {
     border-radius: 10px;
     border: 2px solid white;
-}
+} */
 .image-2, .image-3{
-    /* margin-left: 33px; */
     width:80%;
     border-radius: 10px;
 }
@@ -124,8 +127,6 @@ a{
     text-decoration: none;
 }
 .project-1 {
-    /* margin-left: 100px; */
-    display: flex;
     align-items: center;
     padding: 0;
     background-image: url('../images/ice-cream-2.jpg');
@@ -135,7 +136,6 @@ a{
     border-radius: 10px;
 }
 .project-2 {
-    /* margin-left: 100px; */
     align-items: center;
     padding: 0;
     background-image: url('../images/cactus.jpg');
@@ -145,7 +145,6 @@ a{
     border-radius: 10px;
 }
 .project-3 {
-    /* margin-left: 100px; */
     align-items: center;
     padding: 0;
     background-image: url('../images/ice-cream.jpg');
@@ -157,19 +156,29 @@ a{
 .contact{
     background-color: black;
     border-radius: 10px;
-    padding:50px 50px 50px;
-    /* margin-left: 200px; */
+    padding:20px 20px 20px;
     margin-bottom: 100px;
+}
+.contact img{
+    float: right;
+    background-color: black;
+    border-radius: 10px;
+    /* margin-bottom: 100px; */
 }
 .contact p{
     color:white;
     border:none;
 }
 .fa{
-    color:white;
-    padding-left: 12px;
-    display:flex;
+    height:10px;
+    position:relative;
+    top:10px;
+    margin-right: 10px;
 }
-.fa-envelope, .fa-phone {
-    font-size: 48px;
+p3{
+    font-size:20px;
+    color: white;
+}
+.contact ul li{
+    /* height: 48.8px; */
 }

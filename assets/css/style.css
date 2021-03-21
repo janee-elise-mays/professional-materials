@@ -51,7 +51,6 @@ p1{
     background-color: white;
     border-radius: 10px;
     color: #ccbcaf;
-    /* margin-left: 6%; */
 }
 .links{
     background-color:black;
@@ -68,7 +67,6 @@ li a {color: white;text-decoration: none;}
 
 .links ul li {
     display: inline-block;
-    /* margin-left: 40px; */
     margin-right: 40px;
 }
 
@@ -88,10 +86,6 @@ li a {color: white;text-decoration: none;}
     display:flex;
     flex-wrap: wrap;
 }
-/* .image-1 {
-    border-radius: 10px;
-    border: 2px solid white;
-} */
 .image-2, .image-3{
     width:80%;
     border-radius: 10px;
@@ -163,7 +157,6 @@ a{
     float: right;
     background-color: black;
     border-radius: 10px;
-    /* margin-bottom: 100px; */
 }
 .contact p{
     color:white;

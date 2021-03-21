@@ -179,6 +179,9 @@ p3{
     font-size:20px;
     color: white;
 }
-.contact ul li{
-    height: 48.8%;
+
+@media screen and (max-width: 600px) {
+.header {
+        font-size: 3rem;
+    }
 }
